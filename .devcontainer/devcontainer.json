@@ -23,8 +23,5 @@
                 "tintoy.msbuild-project-tools"
             ]
         }
-    },
-
-    "onCreateCommand": [ "dotnet", "build", "FSharp.Compiler.Service.sln"],
-    "waitFor": "onCreateCommand"
+    }
 }
